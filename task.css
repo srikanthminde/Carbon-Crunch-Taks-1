@@ -207,7 +207,7 @@ h1 {
     margin-right: 20px;
     margin-top: 50px;
     font-family: 'Inter', sans-serif;
-    animation: scroll 10s linear infinite
+    
     
 }
 
@@ -661,11 +661,3 @@ h1 {
     }
 }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(-10%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
