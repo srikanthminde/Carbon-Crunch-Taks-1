@@ -39,8 +39,6 @@
     background: none;
     border: none;
     outline: none;
-    position: absolute;
-
 }
 
 .nav-img{
@@ -209,7 +207,7 @@ h1 {
     margin-right: 20px;
     margin-top: 50px;
     font-family: 'Inter', sans-serif;
-    
+    /* animation: scroll 10s linear infinite */
     
 }
 
@@ -660,6 +658,20 @@ h1 {
 
     .menu-btn {
         display: block;
-    }
+        display: flex;
+       position: absolute;
+       margin-left: 500px;
+       top: 15px;
+       position: fixed;
+        
+    }
 }
 
+/* @keyframes scroll {
+    0% {
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+} */
